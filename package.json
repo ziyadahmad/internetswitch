@@ -1,11 +1,30 @@
 {
   "name": "internetswitch",
   "version": "1.0.0",
-  "description": "Switch to turn On/Off internet connected devices",
+  "description": "Switch to turn on/off light bulb",
   "main": "server.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-ui-switch": "^0.1.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonfile": "^2.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziyadahmad/internetswitch.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziyadahmad/internetswitch/issues"
+  },
+  "homepage": "https://github.com/ziyadahmad/internetswitch#readme"
 }
