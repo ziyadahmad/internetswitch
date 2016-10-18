@@ -1,5 +1,5 @@
 var app = angular.module('myapp', ['ngRoute','uiSwitch']);
-var url = 'https://internet-switch-ziyadahmad.c9users.io/switch';
+var url = 'https://internetswitch.herokuapp.com/switch';
 
 app.controller('LightController', ['$scope', '$http', function($scope, $http) {
 
