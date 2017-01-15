@@ -24,8 +24,8 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/www/index.html'));
 });
 
-app.get('/loaderio-890d12ae4546ec683abbe3e35407a74a', function(req, res) {
-    res.sendFile(path.join(__dirname + '/www/loaderio-890d12ae4546ec683abbe3e35407a74a.txt'));
+app.get('/loaderio-b2e86dbdc01996b864b08461abefb0f9', function(req, res) {
+    res.sendFile(path.join(__dirname + '/www/loaderio-b2e86dbdc01996b864b08461abefb0f9.txt'));
 });
 
 app.get('/switch', function(req, res) {
