@@ -24,10 +24,6 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/www/index.html'));
 });
 
-app.get('/loaderio-890d12ae4546ec683abbe3e35407a74a', function(req, res) {
-    res.sendFile(path.join(__dirname + '/www/loaderio-890d12ae4546ec683abbe3e35407a74a.txt'));
-});
-
 app.get('/switch', function(req, res) {
 
     jsonfile.readFile(file, function(err, obj) {
