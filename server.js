@@ -43,6 +43,8 @@ app.post('/switch', function(req, res) {
         if (err != null)
             console.log(err);
     });
+    
+    console.log(obj);
 
     res.send(obj);
 });
